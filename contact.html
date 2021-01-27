@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- hier zet je de code in de head tags -->
+  <title> Over mij </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- hier zet je de code in de body tags-->
+  <header>
+    <h1>Meer informatie over mij</h1>
+  </header>
+  <hr>
+  <main>
+    <h2>Neem contact op:</h2>
+
+
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Naam <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>E-mail: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Tel: <input type="tel" name="phone" /></label>
+      </p>
+      <p>
+        <label>Leeftijd: <input type="number" name="leeftijd" /></label>
+      </p>
+
+      <p>
+        <label>Geboortedatum: <input type="date" name="geboortedatum" /></label>
+      </p>
+      <p>
+        <label> Geslacht: <br><input type="radio" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label></label>
+      </p>
+      <p>
+        <label>Favoriete keuken:<br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Frans">
+          <label for="vehicle1"> Frans</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Italiaans">
+          <label for="vehicle2"> Italiaans</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Arabisch">
+          <label for="vehicle3"> Spaans</label>
+        </label>
+      </p>
+      <p>
+        <label for="colorpicker">Favoriete kleur schort:</label>
+        <input type="color" id="colorpicker" name="colorpicker" value="#0000ff">
+      </p>
+      <p>
+        <label>Biografie: <textarea name="Biografie"></textarea></label>
+      </p>
+      <p><label>Upload je favoriete recept:</label>
+        <input type="file" id="myFile" name="filename">
+      </p>
+      <p>
+        <label for="homepage">Jouw website:</label>
+        <input type="url" id="homepage" name="homepage" placeholder="http://voorbeeld.nl" pattern="http://.*" size="30">
+
+      </p>
+      <p>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </p>
+    </form>
+
+
+  </main>
+  <footer>
+    <a class="about" href="index.html">Terug naar de homepage</a>
+  </footer>
+</body>
+
+</html>

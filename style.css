@@ -1,0 +1,121 @@
+body { 
+    background-color: rgb(172, 180, 204);
+    font-family: Arial, Helvetica, serif;
+    margin: 20px;
+}
+
+
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    color:#1f41b1;
+    font-weight: bold;
+    text-shadow: 2px 2px grey;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   
+}
+
+h2{
+    font-size: 18px;
+    color:rgb(5, 68, 109);
+    padding-top: 5px;
+    padding-bottom: 15px;
+   
+}
+
+main{
+    border: 5px dotted rgb(10, 110, 18);
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+nav {
+    background-color:rgb(62, 166, 173);
+    color:rgb(172, 180, 204);
+    padding: 5px 50px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+ul{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    list-style-type: square;
+    line-height: 1.8;
+}
+
+li { 
+  display: inline;
+ }
+
+footer{
+  margin-top: 30px;  
+  padding: 20px; 
+  width: 600px;
+  
+    background-color: rgb(73, 98, 175);
+    border: 2px solid rgb(54, 4, 4);
+    font-size: 15px;
+    
+}
+
+a.about:link, a.about:visited {
+    background-color: #36bef4;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  a.about:hover, a.about:active {
+    background-color: rgb(59, 6, 184);
+  }
+  
+  a#google:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a#google:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a#google:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a#google:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  @media (min-width: 1024px) {
+    body {
+      background-color: #50b9ff;
+      color:rgb(54, 4, 4);
+      font-size: 15px;
+      line-height: 1;
+    }
+    h1 {
+      font-size: 20x;
+    }
+    h1 {
+      font-size: 15x;
+    }
+    footer {
+      padding: 10px; 
+      width: 1000px;
+      font-size: 10px;
+    }
+  }
